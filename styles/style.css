@@ -1,0 +1,137 @@
+
+
+
+@media(max-width: 480px){
+
+    
+    body{
+        background-image: url('../image/marriage.jpg');
+        background-repeat: repeat;
+
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 2.5em;
+        color: rgb(193, 238, 124);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .content{
+        margin-left: 5%;
+       
+    }
+    .first{
+        background-color: turquoise;
+        margin-right: 10%;
+        padding: 2% 1%;
+        border-radius: 15% 0;
+        box-shadow: 2px 1px yellowgreen;
+    }
+    .first > li{
+        font-family:  "Helvetica Neue", Helvetica, sans-serif;
+        color: rgb(239, 236, 245);
+        font-size: 1.3em;
+        text-transform: uppercase;
+
+        
+    }
+    
+    .first * li {
+        color: rgb(10, 5, 5);
+        font-size: 1.2em;
+        font-weight: bold;
+        font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 4% 0;
+    }
+    
+    button{
+        margin-left: 7%;
+        padding: 1.5%;
+        border-radius: 10%;
+        text-transform: uppercase;
+        background-color: black;
+        border: 3px solid blue;
+    }
+    
+    button a{
+        text-decoration: none;
+    }
+    
+    button a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+    
+    main{
+        background-color: rgba(9, 119, 146, 0.575);
+        padding: 2em 0;
+    }
+    }
+
+    @media(min-width: 500px){
+
+        body{
+            background-image: url('../image/marriage.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+    h1{
+        text-align: center;
+        font-size: 4em;
+        color: rgb(193, 238, 124);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .content{
+        margin-left: 20%;
+       
+    }
+    .first{
+        background-color: turquoise;
+        margin-right: 10%;
+        padding: 2% 1%;
+        border-radius: 15% 0;
+        box-shadow: 2px 1px yellowgreen;
+    }
+    .first > li{
+        color: rgb(239, 236, 245);
+        font-size: 2em;
+        
+    }
+    
+    .first * li {
+        color: rgb(6, 9, 20);
+        font-size: 1.4em;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    button{
+        margin-left: 20%;
+        padding: 1.5%;
+        border-radius: 10%;
+        text-transform: uppercase;
+        background-color: black;
+        border: 3px solid blue;
+    }
+    
+    button a{
+        text-decoration: none;
+        color: turquoise;
+    }
+    
+    button a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+    
+    main{
+        background-color: rgba(9, 119, 146, 0.575);
+        padding: 2em 0;
+    }
+    span{
+        background-color: turquoise;
+    }
+    }

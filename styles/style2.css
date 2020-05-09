@@ -1,0 +1,44 @@
+body{
+    background-image: url('../image/marriage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    color: rgb(193, 238, 124);
+}
+
+.first > li{
+    color: rgb(239, 236, 245);
+    font-size: 1.4em;
+    padding-top: 1.2em;
+}
+
+.first * li {
+    color: rgb(190, 10, 151);
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 1.2em;
+}
+
+button{
+    margin-left: 10%;
+    padding: 1.5%;
+    border-radius: 10%;
+    text-transform: uppercase;
+}
+
+button a{
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.m2 .freebirdFormviewerViewHeaderHeader{
+    background-color: black !important;
+}
